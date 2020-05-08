@@ -14,10 +14,19 @@
  *= require_self
  */
  
- @import "bootstrap-sprockets";
- @import "bootstrap";
+@import "bootstrap-sprockets";
+@import "bootstrap";
 
- .navbar-inverse {
+@import 'abstracts/variables';
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+
+
+h1{
+    color: $red;
+}
+
+.navbar-inverse {
     border-radius: 0; 
 }
 
